@@ -7,7 +7,8 @@ Sea dado un grafo completo G = (V, E), donde V es el conjunto de vértices (|V|
 
 ##### **Formato de las intancias del problema**
 Las instancias del problema se suministrarán en un fichero de texto con el siguiente formato: 
-* En la primera fila se encuentra el **número de vértices, n**. A continuación, **se enumeran las afinidades, d(i, j)**, entre los pares de vértices (se asume que las afinidades son simétricas, es decir, que d(i, j) = d( j, i), ∀i, j ∈ V. Además, d(i, i) = 0, ∀i ∈ V).
+* **PRIMERA FILA:** Se encuentra el **número de vértices, n**. 
+* **SIGUIENTES FILAS:** Se enumeran las afinidades, d(i, j)**, entre los pares de vértices (se asume que las afinidades son simétricas, es decir, que d(i, j) = d( j, i), ∀i, j ∈ V. Además, d(i, i) = 0, ∀i ∈ V).
 
 ##### **Algoritmos implementados**
 * Constructivo voraz.
